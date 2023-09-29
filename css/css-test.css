@@ -5,12 +5,11 @@
 }
 
 .header__title {
-    font-size: 150%;
+    font-size: 3vw;
     color: rgb(24, 0, 255);
 }
 
 nav.header__nav {
-    font-size: 100%;
     margin-left: auto;
 }
 
@@ -25,26 +24,28 @@ li {
     padding: 0 10px;
     color: rgb(24, 0, 255);
     font-weight: bold;
+    font-size: 2vw;
 }
 
 .firstview {
     position: relative;
     margin: 50px 0 0 0;
+    height: 500px;
+    width: auto;
 }
 
 img.firstview__img--right {
     margin: 0 0 0 auto;
     display: flex;
     width: 50%;
-
 }
 
 
 .firstview__title {
-    position: absolute;
-    top: 300px;
     display: flex;
-    font-size: 50px;
+    position: absolute;
+    top: 18vw;
+    font-size: 5vw;
     line-height: 100%;
     margin-bottom: 0%;
 
@@ -52,12 +53,12 @@ img.firstview__img--right {
 
 .firstview__underbox {
     position: absolute;
-    top: 380px;
+    top: 26vw;
     display: block;
     background-color: rgb(24, 0, 255);
     margin-top: 0%;
-    width: 80%;
-    height: 200px;
+    width: 70%;
+    height: 15vw;
     justify-content: space-around;
     z-index: -5;
 }
